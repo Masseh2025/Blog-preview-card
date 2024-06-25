@@ -101,4 +101,12 @@ body {
   font-family: "Figtree", sans-serif;
 }
 
-/* background-color */
+/* background and card */
+
+.background {
+  background-color: var(--yellow);
+}
+
+.card {
+  background-color: #fff;
+}
