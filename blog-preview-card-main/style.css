@@ -148,9 +148,15 @@ body {
   margin: 0;
 }
 
+/* interactive heading */
+.card__heading:hover {
+  cursor: pointer;
+  color: var(--yellow);
+}
+
 .card__description {
   color: #7f7f7f;
-  font-size: clamp(0.875rem, 1rem, 3vw);
+  font-size: clamp(0.875rem, 1rem, 2.5vw);
 }
 
 /* category styling */
